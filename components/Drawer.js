@@ -20,18 +20,33 @@ class DrawerScreen extends Component {
         <ScrollView>
           <View>
             <View style={styles.menuItem}>
-              <Text onPress={this.navigateToScreen('Home')}>
-                Home
+              <Text onPress={this.navigateToScreen('Noticias')}>
+                Noticias
               </Text>
             </View>
             <View style={styles.menuItem}>
               <Text onPress={this.navigateToScreen('About')}>
-               About
+               Acerca De
               </Text>
             </View>
             <View style={styles.menuItem}>
               <Text onPress={this.navigateToScreen('Contact')}>
-              Contact
+              Galeria
+              </Text>
+            </View>
+            <View style={styles.menuItem}>
+              <Text onPress={this.navigateToScreen('Contact')}>
+              Videos
+              </Text>
+            </View>
+            <View style={styles.menuItem}>
+              <Text onPress={this.navigateToScreen('Contact')}>
+              Aliados
+              </Text>
+            </View>
+            <View style={styles.menuItem}>
+              <Text onPress={this.navigateToScreen('Contact')}>
+              Contacto
               </Text>
             </View>
           </View>

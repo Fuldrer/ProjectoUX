@@ -7,6 +7,8 @@ import DrawerScreen from './Drawer'
 import Contact from './Contacto'
 import styles from './styles/index'
 import HomeScreen from './Home';
+import About from './About';
+import VideoScreen from './Videos';
 
 const DrawerNavigator = createDrawerNavigator({
     Home:{
@@ -14,6 +16,12 @@ const DrawerNavigator = createDrawerNavigator({
     },
     Contact:{
         screen: Contact
+    },
+    About:{
+        screen:About
+    },
+    Videos:{
+        screen:VideoScreen
     }
 },{
     initialRouteName: 'Home',
@@ -38,7 +46,7 @@ const StackNavigator = createStackNavigator({
     }
 },{
     navigationOptions: ({ navigation }) => ({
-        title: 'ReactNavigation',  // Title to appear in status bar
+        title: 'Ruta5',  // Title to appear in status bar
         headerLeft: 
         <TouchableOpacity  onPress={() => {navigation.dispatch(DrawerActions.toggleDrawer())} }>
             <MenuImage style="styles.bar" navigation={navigation}/>
