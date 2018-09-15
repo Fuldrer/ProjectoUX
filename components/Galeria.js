@@ -67,7 +67,7 @@ export default class ContactScreen extends React.Component{
     if (this.state.isLoading) {
       return (
  
-       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+       <View style={{flex: 1, justifyContent: 'center'}}>
  
           <ActivityIndicator size="large" />
  
@@ -124,7 +124,7 @@ export default class ContactScreen extends React.Component{
  
      width: '50%',
      height: 100 ,
-     margin: 7,
+     margin: 0,
      borderRadius : 7
   
  },

@@ -9,6 +9,7 @@ import styles from './styles/index'
 import HomeScreen from './Home';
 import About from './About';
 import VideoScreen from './Videos';
+import Gallery from './Galeria'
 
 const DrawerNavigator = createDrawerNavigator({
     Home:{
@@ -22,6 +23,9 @@ const DrawerNavigator = createDrawerNavigator({
     },
     Videos:{
         screen:VideoScreen
+    },
+    Galeria:{
+        screen: Gallery
     }
 },{
     initialRouteName: 'Home',
