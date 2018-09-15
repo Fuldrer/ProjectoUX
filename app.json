@@ -1,5 +1,15 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
+   "name": "Ruta5App",
+   "version": "1.0.0",
+   "slug": "your-app-slug",
+   "sdkVersion": "27.0.0",
+   "ios": {
+     "bundleIdentifier": "com.Fuldrer.Ruta5App"
+   },
+   "android": {
+     "package": "com.Fuldrer.Ruta5App"
+   }
   }
 }
+
